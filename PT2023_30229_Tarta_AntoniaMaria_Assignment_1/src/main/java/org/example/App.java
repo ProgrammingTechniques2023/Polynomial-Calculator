@@ -1,13 +1,13 @@
 package org.example;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+import GUI.View;
+import javax.swing.*;
+
+public class App {
+    public static void main(String[] args) {
+
+        JFrame frame = new View();
+        frame.setVisible(true);
+
     }
 }
